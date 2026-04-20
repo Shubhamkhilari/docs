@@ -1,68 +1,153 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Xoxoday Internal Wiki",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF6B35",
+    "light": "#FF8C5A",
+    "dark": "#E55A25"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Home",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Welcome",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "index"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Company",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Company",
             "pages": [
-              "api-reference/introduction"
+              "company/README",
+              "company/about",
+              "company/values",
+              "company/leadership",
+              "company/offices",
+              "company/interesting-facts"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Products",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "products/README"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Empuls",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "products/empuls/README",
+              "products/empuls/features",
+              "products/empuls/gtm",
+              "products/empuls/competitors"
+            ]
+          },
+          {
+            "group": "Plum",
+            "pages": [
+              "products/plum/README",
+              "products/plum/reward-types",
+              "products/plum/admin-portal",
+              "products/plum/pricing-and-wallet",
+              "products/plum/api",
+              "products/plum/storefront",
+              "products/plum/gtm"
+            ]
+          },
+          {
+            "group": "Loyalife",
+            "pages": [
+              "products/loyalife/README",
+              "products/loyalife/loyalty-programs",
+              "products/loyalife/industry-solutions",
+              "products/loyalife/gtm"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Departments",
+        "groups": [
+          {
+            "group": "Departments",
+            "pages": [
+              "departments/README",
+              "departments/sales",
+              "departments/customer-success",
+              "departments/customer-care",
+              "departments/marketing",
+              "departments/product-design",
+              "departments/tech-qa",
+              "departments/implementation",
+              "departments/finance-legal",
+              "departments/catalog",
+              "departments/hr-admin",
+              "departments/infosec"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Onboarding",
+        "groups": [
+          {
+            "group": "Onboarding",
+            "pages": [
+              "onboarding/README",
+              "onboarding/week-by-week-plan",
+              "onboarding/department-guides",
+              "onboarding/tools-and-communication",
+              "onboarding/culture-and-celebrations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Partnerships",
+        "groups": [
+          {
+            "group": "Partnerships",
+            "pages": [
+              "partnerships/README",
+              "partnerships/partner-types",
+              "partnerships/partner-lifecycle"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "People & Hiring",
+        "groups": [
+          {
+            "group": "People & Hiring",
+            "pages": [
+              "people/README",
+              "people/hiring",
+              "people/internships"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Glossary",
+        "groups": [
+          {
+            "group": "Glossary",
+            "pages": [
+              "glossary/README"
             ]
           }
         ]
@@ -71,14 +156,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Xoxoday Website",
+          "href": "https://www.xoxoday.com",
+          "icon": "globe"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Careers",
+          "href": "https://www.xoxoday.com/careers",
+          "icon": "briefcase"
         }
       ]
     }
@@ -90,33 +175,20 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Ask HR",
+        "href": "mailto:askhr@xoxoday.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Empuls",
+      "href": "https://empuls.io"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://linkedin.com/company/xoxoday",
+      "x": "https://x.com/xoxoday"
     }
   }
 }
